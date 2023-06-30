@@ -1,6 +1,6 @@
 let days = Array.from(document.getElementsByClassName("page-nav__day")); 
 let date = new Date();
-let allDays = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
+let allDays = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"]
 
 days.forEach(day => { // задаем название каждому дню
   date.setDate(date.getDate());
